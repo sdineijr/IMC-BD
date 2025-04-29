@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_margin="10dp"
-    android:background="@color/fundoV"
+    android:background="@drawable/background_bordas"
     android:layout_height="wrap_content">
 
     <TextView
@@ -54,16 +54,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="IMC: "
-        android:textSize="18sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:layout_gravity="center" />
-
-    <TextView
-        android:id="@+id/txtClass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Classificação: "
         android:textSize="18sp"
         android:textColor="@color/black"
         android:textStyle="bold"

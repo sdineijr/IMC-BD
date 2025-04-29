@@ -46,9 +46,9 @@ class AtualizarUsuario : AppCompatActivity() {
                     mensagem = false
                 } else {
                     // Calcula o IMC
-                    val alturaFloat = altura.toFloatOrNull() ?: 0f
-                    val pesoFloat = peso.toFloatOrNull() ?: 0f
-                    val imc = if (alturaFloat > 0) pesoFloat / (alturaFloat * alturaFloat) else 0f
+                    val alturaDouble = altura.toDoubleOrNull()?.div(100)
+                    val pesoDouble = peso.toDoubleOrNull()
+                    val imc = if (alturaDouble!! > 0) (pesoDouble?.div((alturaDouble * alturaDouble)))?.toFloat() else 0f
 
                     val df = DecimalFormat("#.##")
                     val imcFormatado = df.format(imc).replace(",", ".").toFloat()
