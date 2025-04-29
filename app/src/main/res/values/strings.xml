@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">banco de dados</string>
+    <string name="btCadastrar">Cadastrar</string>
+    <string name="btcadastrar">Cadastrar</string>
+    <string name="nome">Nome</string>
+    <string name="txt_nome">Odair</string>
+    <string name="Text_Nome">Odair</string>
+    <string name="text_Idade">20</string>
+    <string name="txt_sobrenome">Gabriel</string>
+    <string name="telefone">11 99999-5555</string>
+    <string name="todo">TODO</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="titulo">BEM VINDO AO</string>
+    <string name="TextCadastros">Cadastro já feitos:</string>
+    <string name="devname">by Renoir</string>
+    <string name="textFazerCad">Vamos fazer seu cadastro?</string>
+</resources>
